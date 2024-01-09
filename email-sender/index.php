@@ -23,14 +23,15 @@ try {
         $mail->isSMTP();                                            //Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'yashdoifode1439@gmail.com';                     //SMTP username
-        $mail->Password   = 'kezjrowalebmkhof';                               //SMTP password
-        $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+        $mail->Username   = 'abdulrahim74264@gmail.com';                     //SMTP username
+        $mail->Password   = 'taxxjjaumgvfjmzi';                               //SMTP password
+        $mail->SMTPSecure = 'ssl';
+        $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     
         //Recipients
-        $mail->setFrom('yashdoifode1439@gmail.com','GREEKFORGREEKS'); // Sender Info
-        $mail->addAddress($email, $name);               //Name is optional
-        $mail->addReplyTo('yashdoifode1439@gmail.com', 'Information');
+        $mail->setFrom($_POST['email'],'iHealthCare'); // Sender Info
+        $mail->addAddress('abdulrahim74264@gmail.com', 'iHealthCare');               //Name is optional
+        $mail->addReplyTo($_POST["email"], $_POST['name']);
        
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
