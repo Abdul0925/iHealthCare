@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Login successful
         $_SESSION['username'] = $username;
         echo "Login successful";
-        header("Location: temp.php");
+        header("Location: apt.php");
         exit();
     } else {
         // Login failed
