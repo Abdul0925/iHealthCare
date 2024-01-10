@@ -78,7 +78,7 @@ $result = $conn->query($sql);
 <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">greekforgreeks@gmail.com</a>
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">iHealthCare@gmail.com</a>
         <i class="bi bi-phone"></i> +91 XXXX XXXX     </div>
       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="404.html" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -92,7 +92,7 @@ $result = $conn->query($sql);
    <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">GreekForGreeks</a></h1>
+      <h1 class="logo me-auto"><a href="index.html">iHealthCare</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -178,13 +178,13 @@ $result = $conn->query($sql);
     <div class="row">
 
       <div class="col-lg-3 col-md-6 footer-contact">
-        <h3>GreekForGreeks</h3>
+        <h3>iHealthCare</h3>
         <p>
           Mumbai <br>
           Maharashtra<br>
           INDIA <br><br>
           <strong>Phone:</strong> +91 XXXXX XXXXX <br>
-          <strong>Email:</strong> greekforgreeks@gmail.com<br>
+          <strong>Email:</strong> iHealthCare@gmail.com<br>
         </p>
       </div>
 
@@ -208,7 +208,7 @@ $result = $conn->query($sql);
 
   <div class="me-md-auto text-center text-md-start">
     <div class="copyright">
-      &copy; Copyright <strong><span>GreekForGreeks</span></strong>.</br> All Rights Reserved 2024-2030
+      &copy; Copyright <strong><span>iHealthCare</span></strong>.</br> All Rights Reserved 2024-2030
     </div>
     <div class="credits">
      
